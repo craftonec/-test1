@@ -416,6 +416,10 @@
         <textColor xsi:type="core:ColorDef">
           <green>128</green>
         </textColor>
+        <font xsi:type="core:FontDef">
+          <height>8.0</height>
+          <bold>true</bold>
+        </font>
         <representationInContextMenu>Auto</representationInContextMenu>
       </items>
       <visible>true</visible>
