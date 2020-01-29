@@ -414,7 +414,7 @@
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
         <textColor xsi:type="core:ColorDef">
-          <green>128</green>
+          <red>255</red>
         </textColor>
         <font xsi:type="core:FontDef">
           <height>8.0</height>
