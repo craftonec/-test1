@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5fe1eee2-5e9b-48c2-8114-9801e52d0736">
+  <producedTypes>
+    <objectType typeId="7f0bc359-3dda-4db9-a703-87463e3100b9" valueTypeId="fefaaed5-0e32-4535-a0de-0403582dbdb7"/>
+  </producedTypes>
+  <name>craft1c_ВыборПериодаНаУправляемойФорме</name>
+  <synonym>
+    <key>ru</key>
+    <value>Craft1c выбор периода на управляемой форме</value>
+  </synonym>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="283d5a97-bf36-4a1b-95f1-f25370529d62"/>
+  <defaultForm>ExternalDataProcessor.craft1c_ВыборПериодаНаУправляемойФорме.Form.Форма</defaultForm>
+  <attributes uuid="94e5c616-09e4-43fe-bc88-1d908ee83897">
+    <name>ПериодС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период С</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="cd66d233-7441-447e-88b0-f082f1a68bea">
+    <name>ПериодПо</name>
+    <synonym>
+      <key>ru</key>
+      <value>по</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="d1e9fce8-d0a5-413a-8858-1a5bbb97a836">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="dbc2a9d8-b614-4e14-a4cd-f92a0b595773">
+    <name>БыстрыйВыборСтандартногоПериода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Быстрый выбор стандартного периода</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:ExternalDataProcessor>
